@@ -218,5 +218,29 @@ p {
   body {
     background: #003147;
   }
+
+  .return a {
+    position: absolute;
+    color: white;
+    margin-left: 55px;
+  }
+
+  .fa-home {
+    position: absolute;
+    color: white;
+    margin-right: 55px;
+  }
+
+  .contactInfo {
+    font-size: 20px;
+  }
+
+  .contactInfo .text {
+    font-size: 18px;
+  }
+
+  .contactInfo ul li .icon {
+    font-size: 24px;
+  }
 }
 
