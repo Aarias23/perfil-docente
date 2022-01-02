@@ -242,5 +242,8 @@ p {
   .contactInfo ul li .icon {
     font-size: 24px;
   }
-}
 
+  body {
+    overflow-x: hidden;
+  }
+}
