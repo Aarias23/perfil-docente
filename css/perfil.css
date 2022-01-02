@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #000000;
+  background: #000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -187,3 +187,36 @@ p {
   text-align: justify;
   line-height: 1.5;
 }
+
+/* Responsive */
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .about {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .left_Site {
+    margin-left: 82px;
+  }
+
+  .container {
+    background: #003147;
+  }
+
+  .container .right_Site {
+    background: #003147;
+  }
+
+  body {
+    background: #003147;
+  }
+}
+
